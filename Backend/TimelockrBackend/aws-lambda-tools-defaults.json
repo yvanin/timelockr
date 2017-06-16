@@ -1,0 +1,12 @@
+
+{
+    "profile"     : "Timelockr",
+    "region"      : "us-east-2",
+    "configuration" : "Release",
+    "framework"     : "netcoreapp1.0",
+    "s3-prefix"     : "TimelockrBackend/",
+    "template"      : "serverless.template",
+    "s3-bucket"     : "timelockr-backend",
+    "stack-name"    : "Timelockr",
+    "stack-wait"    : false
+}

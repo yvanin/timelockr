@@ -1,0 +1,105 @@
+/* Timelockr */
+
+body {
+    font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 16px;
+}
+
+footer {
+    min-height: 50px;
+}
+
+.btn,
+.form-control {
+    font-size: 16px;
+}
+
+.modal-dialog {
+    margin-top: 150px;
+
+    &.alert {
+        width: 280px;
+        padding: 0;
+    }
+
+    &.alert .modal-footer {
+        padding: 10px 15px;
+
+        &>.btn {
+            padding: 3px 14px;
+        }
+    }
+}
+
+.pretty {
+    margin: 0;
+}
+
+#app > .container {
+    padding-top: 80px;
+}
+
+.cb-lbl {
+    margin: 0;
+}
+
+.panel-default > .panel-heading.weekend {
+    background-image: linear-gradient(to bottom, #fefefe 0, #f8f8f8 100%);
+    background-color: #fefefe;
+}
+
+.panel-heading,
+.list-group-item {
+    padding: 0;
+}
+
+.timeslot-row {
+    padding-left: 30px;
+}
+
+.action-btn {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 25px;
+}
+
+.custom-time {
+    width: 30%;
+}
+
+.days {
+    display: flex;
+
+    .add-another-week {
+        display: flex;
+        align-items: flex-end;
+        padding-bottom: 20px;
+    }    
+}
+
+input[type='text'] {
+    &.error {
+        border-color: red;
+    }
+
+    &.event-link {
+        width: 95%;
+    }
+}
+
+.wait-spinner {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.confirmation-timeslot > .timeslot {
+    padding-bottom: 0;
+}
